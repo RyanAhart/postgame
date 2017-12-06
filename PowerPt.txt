@@ -1,0 +1,14 @@
+require 'win32ole'
+ppt=WIN32OLE.new('PowerPoint.Application')
+ppt.Visible = true
+doc = ppt.Presentations.Open('C:\Users\ryana\Desktop\Nebraska Prospects\PlayerStatsRed.pptx')
+slide=doc.Slides(1)
+slide.Shapes(1).TextFrame.TextRange.Text = "Player Name"
+slide.Shapes(2).TextFrame.TextRange.Text = "School"
+slide.Shapes(3).TextFrame.TextRange.Text = "Stats"
+slide.Shapes(4).TextFrame.TextRange.Text = "Opponent"
+slide.Shapes(5).TextFrame.TextRange.Text = "Grad Year"
+slide.Shapes(6).TextFrame.TextRange.Text = "Position"
+doc.Slides(1).Export('C:\Users\ryana\Desktop\PlayerStatsTest9.png', 'png')
+doc.Close()
+ppt.Quit()
