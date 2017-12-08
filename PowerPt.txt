@@ -1,3 +1,13 @@
+<?php
+$formdata = ARRAY();
+foreach ($_POST as $key => $value) {
+$value = stripslashes($value);
+$formdata[$key]=$value;
+}
+if (array_key_exists('uid', $formdata)==false) die('One essential parameter was not POST-ed. Exiting.');
+$emailtxt="Received data:\r\n";
+
+<%
 require 'win32ole'
 ppt=WIN32OLE.new('PowerPoint.Application')
 ppt.Visible = true
@@ -12,3 +22,4 @@ slide.Shapes(6).TextFrame.TextRange.Text = "Position"
 doc.Slides(1).Export('C:\Users\ryana\Desktop\PlayerStatsTest9.png', 'png')
 doc.Close()
 ppt.Quit()
+%>
