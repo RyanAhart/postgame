@@ -1,4 +1,3 @@
-
 <?php
 $formdata = ARRAY();
 foreach ($_POST as $key => $value) {
