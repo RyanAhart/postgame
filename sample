@@ -17,40 +17,40 @@ $emailtxt="Received data:\r\n";
 
 
 //Lets use field Subject
-$emailtxt.="$formdata[controlname190] is "; $emailtxt.="$formdata[controlvalue190]\r\n"; 
+//$emailtxt.="$formdata[controlname190] is "; $emailtxt.="$formdata[controlvalue190]\r\n"; 
 
 //Lets use field Name - component # 1
-$emailtxt.=$formdata['controlname2088968-1']." is "; $emailtxt.=$formdata['controlvalue2088968-1']."\r\n"; 
+//$emailtxt.=$formdata['controlname2088968-1']." is "; $emailtxt.=$formdata['controlvalue2088968-1']."\r\n"; 
 
 //Lets use field Name - component # 2
-$emailtxt.=$formdata['controlname2088968-2']." is "; $emailtxt.=$formdata['controlvalue2088968-2']."\r\n"; 
+//$emailtxt.=$formdata['controlname2088968-2']." is "; $emailtxt.=$formdata['controlvalue2088968-2']."\r\n"; 
 
 //Lets use field Email
-$emailtxt.="$formdata[controlname189] is "; $emailtxt.="$formdata[controlvalue189]\r\n"; 
+//$emailtxt.="$formdata[controlname189] is "; $emailtxt.="$formdata[controlvalue189]\r\n"; 
 
 //Lets use field Your 123ContactForm username
-$emailtxt.="$formdata[controlname1474] is "; $emailtxt.="$formdata[controlvalue1474]\r\n"; 
+//$emailtxt.="$formdata[controlname1474] is "; $emailtxt.="$formdata[controlvalue1474]\r\n"; 
 
 //Lets use field Your account Status
-$emailtxt.="$formdata[controlname367263] is "; $emailtxt.="$formdata[controlvalue367263]\r\n"; 
+//$emailtxt.="$formdata[controlname367263] is "; $emailtxt.="$formdata[controlvalue367263]\r\n"; 
 
 //Lets use field URL
-$emailtxt.="$formdata[controlname2089107] is "; $emailtxt.="$formdata[controlvalue2089107]\r\n"; 
+//$emailtxt.="$formdata[controlname2089107] is "; $emailtxt.="$formdata[controlvalue2089107]\r\n"; 
 
 //Lets use field Form URL
-$emailtxt.="$formdata[controlname13054140] is "; $emailtxt.="$formdata[controlvalue13054140]\r\n"; 
+//$emailtxt.="$formdata[controlname13054140] is "; $emailtxt.="$formdata[controlvalue13054140]\r\n"; 
 
 //Lets use field Form URL
-$emailtxt.="$formdata[controlname119314] is "; $emailtxt.="$formdata[controlvalue119314]\r\n"; 
+//$emailtxt.="$formdata[controlname119314] is "; $emailtxt.="$formdata[controlvalue119314]\r\n"; 
 
 //Lets use field On which website did you find the form?
-$emailtxt.="$formdata[controlname5747808] is "; $emailtxt.="$formdata[controlvalue5747808]\r\n"; 
+//$emailtxt.="$formdata[controlname5747808] is "; $emailtxt.="$formdata[controlvalue5747808]\r\n"; 
 
 //Lets use field Message
-$emailtxt.="$formdata[controlname191] is "; $emailtxt.="$formdata[controlvalue191]\r\n"; 
+//$emailtxt.="$formdata[controlname191] is "; $emailtxt.="$formdata[controlvalue191]\r\n"; 
 
 //Lets use field Message
-$emailtxt.="$formdata[controlname19352765] is "; $emailtxt.="$formdata[controlvalue19352765]\r\n"; 
+//$emailtxt.="$formdata[controlname19352765] is "; $emailtxt.="$formdata[controlvalue19352765]\r\n"; 
 
 //Lets use field Would you like to be contacted by a member of our team?
 //$emailtxt.="$formdata[controlname2577963] is "; $emailtxt.="$formdata[controlvalue2577963]\r\n"; 
