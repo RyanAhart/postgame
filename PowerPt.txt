@@ -1,3 +1,4 @@
+
 <?php
 $formdata = ARRAY();
 foreach ($_POST as $key => $value) {
@@ -23,3 +24,13 @@ doc.Slides(1).Export('C:\Users\ryana\Desktop\PlayerStatsTest9.png', 'png')
 doc.Close()
 ppt.Quit()
 %>
+
+$emailtxt.="UID is "; $emailtxt.="$formdata[uid]\r\n";
+$emailtxt.="FID is "; $emailtxt.="$formdata[fid]\r\n";
+$emailtxt.="MID is "; $emailtxt.="$formdata[mid]\r\n";
+$emailtxt.="IP is "; $emailtxt.="$formdata[ip]\r\n";
+$emailtxt.="Referer is "; $emailtxt.="$formdata[referer]\r\n";
+
+$from="From: ryanahart@hotmail.com<ryanahart@hotmail.com>\r\nReturn-path: ryanahart@hotmail.com";
+mail("ryanahart@hotmail.com", 'WebHooks Example', $emailtxt, $from);
+?>
